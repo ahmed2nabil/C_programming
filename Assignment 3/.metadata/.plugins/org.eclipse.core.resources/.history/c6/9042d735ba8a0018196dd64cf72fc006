@@ -1,0 +1,26 @@
+/*
+ * Q12.c
+ *
+ *  Created on: Jul 18, 2018
+ *      Author: nobol billy
+ */
+#include<stdio.h>
+#define size 1000
+int length(char str[],int s){
+	int i=0;
+	while(str[i]!='\0'){
+		i++;
+	}
+	return i;
+	}
+int main(){
+	int i,len ;
+	char str[size];
+	for (i=0;i<size;i++)
+	{
+scanf("%c",&str[i]);
+}
+len=length(str,size);
+printf("The Length of string=%d",len);
+}
+

@@ -1,0 +1,35 @@
+/*
+ * Q4.c
+ *
+ *  Created on: Dec 5, 2019
+ *      Author: nobol billy
+ */
+#include<stdio.h>
+int calculate(int operand1,int operand2,char operation);
+  int main (){
+int num1,num2;
+char op;
+	  printf("Enter  two operands =");
+fflush(stdout);
+scanf("%d %d",&num1,&num2);
+printf("choose the operation (+,-,*,/)");
+fflush(stdout);
+scanf("%c",&op);
+int result=calculate(num1,num2,op);
+  }
+int calculate(int operand1,int operand2,char operation){
+	int result;
+	switch(operation){
+	case'+':
+		result=operand1+operand2;
+	case'-':
+		result=operand1-operand2;
+	case'*':
+		result=operand1*operand2;
+	case'/':
+		result=operand1/operand2;
+	default :
+		result=0;
+	}
+	return result;
+}

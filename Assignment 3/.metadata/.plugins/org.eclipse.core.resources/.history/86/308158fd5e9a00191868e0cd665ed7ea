@@ -1,0 +1,20 @@
+/*
+ * cc.c
+ *
+ *  Created on: Jun 29, 2019
+ *      Author: nobol billy
+ */
+#include<stdio.h>
+void str_copy(char str[],char str2[]){
+	int i=0;
+	while(str2[2]!='\0'){
+		str[i]=str2[i];
+		i++;
+	}
+	str[i]=str2[i];
+}
+void main(){
+char str1[15],str2[15]="Embedded C";
+str_copy(str1,str2);
+printf("str1=%s\n",str1);
+}

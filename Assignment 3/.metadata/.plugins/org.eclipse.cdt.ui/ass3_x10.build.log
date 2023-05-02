@@ -1,0 +1,29 @@
+00:29:05 **** Incremental Build of configuration Debug for project ass3_x10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.c" 
+..\Q10.c: In function 'main':
+..\Q10.c:23:6: warning: passing argument 1 of 'gets' from incompatible pointer type [-Wincompatible-pointer-types]
+ gets(str);
+      ^~~
+In file included from ..\Q10.c:7:
+c:\mingw\x86_64-w64-mingw32\include\stdio.h:502:17: note: expected 'char *' but argument is of type 'int *'
+   char *__cdecl gets(char *_Buffer) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+                 ^~~~
+..\Q10.c:25:6: warning: passing argument 1 of 'conv' from incompatible pointer type [-Wincompatible-pointer-types]
+ conv(str);
+      ^~~
+..\Q10.c:9:16: note: expected 'char *' but argument is of type 'int *'
+ void conv(char str[]){
+           ~~~~~^~~~~
+..\Q10.c:26:36: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int *' [-Wformat=]
+ printf("Message After converting: %s",str);
+                                   ~^  ~~~
+                                   %n
+..\Q10.c:26:36: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int *' [-Wformat=]
+ printf("Message After converting: %s",str);
+                                   ~^  ~~~
+                                   %n
+gcc -o ass3_x10.exe Q10.o 
+
+00:29:05 Build Finished. 0 errors, 4 warnings. (took 625ms)
+

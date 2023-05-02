@@ -1,0 +1,26 @@
+/*
+ * Q8.c
+ *
+ *  Created on: Dec 7, 2019
+ *      Author: nobol billy
+ */
+int checkPrime (int number){
+	for(int i=2;i<number;i++){
+		if(number%i==0)return -1;
+		else  continue;
+	}
+	return 1;
+}
+void displayPrime (int op1,int op2){
+	for(int i=op1+1;i<op2;i++){
+		if(checkPrime(i)=1) printf("%d",i);
+		else continue;
+	}
+}
+#include <stdio.h>
+int main() {
+
+	printf("%d",checkPrime(5));
+	return 0;
+}
+

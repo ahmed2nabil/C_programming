@@ -1,0 +1,7 @@
+18:52:56 **** Rebuild of configuration Debug for project Exercise1_Insert_Node_At_First ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Exercise1_Insert_Node_At_First.o" "..\\src\\Exercise1_Insert_Node_At_First.c" 
+gcc -o Exercise1_Insert_Node_At_First.exe "src\\Exercise1_Insert_Node_At_First.o" 
+
+18:53:00 Build Finished. 0 errors, 0 warnings. (took 3s.907ms)
+

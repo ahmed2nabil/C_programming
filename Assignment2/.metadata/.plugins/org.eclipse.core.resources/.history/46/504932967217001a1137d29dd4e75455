@@ -1,0 +1,27 @@
+/*
+ * Q4.c
+ *
+ *  Created on: Dec 5, 2019
+ *      Author: nobol billy
+ */
+#include<stdio.h>
+int calculate(int operand1,int operand2,char operation);
+  int main (){
+
+  }
+int calculate(int operand1,int operand2,char operation){
+	int result;
+	switch(operation){
+	case'+':
+		result=operand1+operand2;
+	case'-':
+		result=operand1-operand2;
+	case'*':
+		result=operand1*operand2;
+	case'/':
+		result=operand1/operand2;
+	default :
+		result=0;
+	}
+	return result;
+}

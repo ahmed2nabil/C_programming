@@ -1,0 +1,33 @@
+/*
+ * Q21.c
+ *
+ *  Created on: Dec 3, 2019
+ *      Author: nobol billy
+ */
+
+
+#include<stdio.h>
+int main(){
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	int number;
+	printf("Enter Number of Lines") ;
+	scanf("%d",&number);
+	printf("\n");
+	for (int j=0;j<number;j++){
+for(int i=0;i<number;i++){
+	  if( (j==i) || (j==number-j-1) )
+	            {
+	                printf(" *");
+	            }
+	            else
+	            {
+	                printf(" ");
+	            }
+}
+	}
+
+	printf("\n");
+
+	return 0;
+}

@@ -1,0 +1,7 @@
+08:44:08 **** Incremental Build of configuration Debug for project Dynamic_Allocation_Example ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Dynamic_Allocation_Example.o" "..\\src\\Dynamic_Allocation_Example.c" 
+gcc -o Dynamic_Allocation_Example.exe "src\\Dynamic_Allocation_Example.o" 
+
+08:44:10 Build Finished (took 1s.828ms)
+

@@ -1,0 +1,22 @@
+/*
+ * Q18.c
+ *
+ *  Created on: Aug 2, 2018
+ *      Author: nobol billy
+ */
+
+
+#include<stdio.h>
+int main(){
+	int i,number;
+	printf("Enter Number of Lines") ;
+	scanf("%d",&number);
+	printf("\n");
+	for (int j=1;j<=numbers;j++){
+	for(i=0;i<j;i++){
+		printf("*");
+	}
+	printf("\n")
+	}
+	return 0;
+}

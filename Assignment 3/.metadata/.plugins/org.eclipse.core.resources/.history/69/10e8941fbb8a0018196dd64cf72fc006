@@ -1,0 +1,21 @@
+/*
+ * Q12.c
+ *
+ *  Created on: Jul 18, 2018
+ *      Author: nobol billy
+ */
+#include<stdio.h>
+#define size 100
+void length(){
+	int i=0;
+	char str[size];
+	while(str[i]!='\0'){
+		scanf("%c",&str[i]);
+		i++;
+	}
+	printf("The Length of string=%d",i);
+	}
+int main(){
+length();
+}
+

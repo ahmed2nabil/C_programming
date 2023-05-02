@@ -1,0 +1,7 @@
+12:49:25 **** Incremental Build of configuration Debug for project Exercise5_Update_Item_Inside_List ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Exercise5_Update_Item_Inside_List.o" "..\\src\\Exercise5_Update_Item_Inside_List.c" 
+gcc -o Exercise5_Update_Item_Inside_List.exe "src\\Exercise5_Update_Item_Inside_List.o" 
+
+12:49:25 Build Finished (took 384ms)
+

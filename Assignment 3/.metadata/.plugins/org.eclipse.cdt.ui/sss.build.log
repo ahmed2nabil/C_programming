@@ -1,0 +1,5 @@
+18:26:17 **** Clean-only build of configuration Debug for project sss ****
+rm -rf sss.exe ss.d ss.o 
+
+18:26:17 Build Finished. 0 errors, 0 warnings. (took 353ms)
+

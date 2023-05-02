@@ -1,0 +1,104 @@
+/*
+ * Q1.c
+ *
+ *  Created on: Jul 31, 2018
+ *      Author: nobol billy
+ */
+#define null 0
+#include<stdio.h>
+#include<stdlib.h>
+struct node{
+	int data;
+	struct node *next;
+};
+struct node *head = null;
+struct node *current = null ;
+struct node *prev = null ;
+void insertAtLast(int data){
+struct node *link =(struct node*) malloc(sizeof(struct node));
+link->data=data;
+link->next=null;
+if(head==null){
+	head=link;
+   return;
+}
+current=head;
+while(current->next!=null){
+	current=current->next;
+}
+current->next=link;
+}
+void printlist(void){
+	struct node *ptr=head;
+	printf("[head]=>");
+	while (ptr!=null){
+		printf("%d=>",ptr->data);
+		ptr=ptr->next;
+	}
+	printf("[null]\n");
+}
+int sizeOfList(void)
+{
+   int size = 0;
+
+   // check if the linked list is empty
+   if(head==NULL)
+   {
+      printf("List size : %d ", size);
+      return -1;
+   }
+
+   current = head;
+   size = 1;
+   while(current->next != NULL)
+   {
+      current = current->next;
+      size++;
+   }
+   return size;
+}
+void nodelist(int data,int position){
+struct node *link = (struct node*) malloc(sizeof(struct node));
+	int pos =0 ;
+	if (head==null){
+		link->data=data;
+		link->next=null;
+		head = link;
+		return;
+	}
+	if(position>sizeOfList()){
+		printf("Invalid Number");
+		return;
+	}
+	current= head;
+	if(position==0){
+		link->data=data;
+		link->next=head;
+		head=link;
+	}
+	while (pos<position){
+		prev = current ;
+		current =current->next;
+		pos++;
+	}
+link->data= data;
+link->next=current;
+prev->next=link;
+}
+
+int main(){
+	insertAtLast(10);
+	insertAtLast(20);
+	insertAtLast(30);
+	insertAtLast(1);
+	insertAtLast(40);
+	insertAtLast(56);
+
+	printlist ();
+nodelist(72,0);
+printlist();
+
+}
+
+
+

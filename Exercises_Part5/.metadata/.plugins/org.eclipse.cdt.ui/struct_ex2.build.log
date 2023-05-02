@@ -1,0 +1,10 @@
+15:23:06 **** Rebuild of configuration Debug for project struct_ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\struct_ex2.o" "..\\src\\struct_ex2.c" 
+..\src\struct_ex2.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^
+gcc -o struct_ex2.exe "src\\struct_ex2.o" 
+
+15:23:07 Build Finished (took 672ms)
+

@@ -1,0 +1,7 @@
+12:38:35 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -o Q2.exe Q2.o 
+
+12:38:40 Build Finished. 0 errors, 0 warnings. (took 4s.348ms)
+

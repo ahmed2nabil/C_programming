@@ -1,0 +1,5 @@
+19:13:11 **** Rebuild of configuration Debug for project Q7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q7.o "..\\Q7.c" 
+gcc -o Q7.exe Q7.o 
+Info: Nothing to build for Q7

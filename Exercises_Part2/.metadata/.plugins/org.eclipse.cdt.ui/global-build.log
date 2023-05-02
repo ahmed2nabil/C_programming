@@ -1,0 +1,5 @@
+02:15:59 **** Rebuild of configuration Debug for project Func_Ex6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Func_Ex6.o" "..\\src\\Func_Ex6.c" 
+gcc -o Func_Ex6.exe "src\\Func_Ex6.o" 
+Info: Nothing to build for Func_Ex6

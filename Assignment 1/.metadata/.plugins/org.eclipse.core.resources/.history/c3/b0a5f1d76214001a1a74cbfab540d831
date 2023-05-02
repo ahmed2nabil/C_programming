@@ -1,0 +1,44 @@
+/*
+ * Q8.c
+ *
+ *  Created on: Jul 9, 2018
+ *      Author: nobol billy
+ */
+#include<stdio.h>
+#include<math.h>
+int main (){
+	int num ,check;
+	float sqr;
+		setvbuf(stdout, NULL, _IONBF, 0);
+		setvbuf(stderr, NULL, _IONBF, 0);
+	printf("Enter your Number=");
+	scanf("%d",&num);
+	sqr= sqrt(num);
+	check=(int) sqr*sqr ;
+	if(check==num){
+		printf("This is perfect square number");
+	}else 	{	printf("This is perfect square number");
+	}
+	return 0;
+}
+//#include<stdio.h>
+//#include<math.h>
+//int main(){
+//	setvbuf(stdout, NULL, _IONBF, 0);
+//	setvbuf(stderr, NULL, _IONBF, 0);
+//int  num;
+//	float sqr;
+//	int  c;
+//	printf("Enter positive number=");
+//	scanf("%d",& num);
+//	sqr = (float) sqrt(num);
+//	c= (int)sqr*sqr;
+//	if (c==num){
+//	printf("This Number is Perfect Square\n");
+//	}
+//	else
+//	{
+//	printf("This Number is not Perfect Square\n");
+//	}
+//
+//}

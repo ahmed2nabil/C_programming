@@ -1,0 +1,94 @@
+20:43:25 **** Incremental Build of configuration Debug for project qaa ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o aaa.o "..\\aaa.c" 
+gcc -o qaa.exe aaa.o 
+Info: Nothing to build for qaa
+Info: Nothing to build for qaa
+20:46:34 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.c" 
+..\Q8.c: In function 'displayPrime':
+..\Q8.c:17:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   if(cc==1) printf("%d\n",i);
+             ^~~~~~
+..\Q8.c:17:13: warning: incompatible implicit declaration of built-in function 'printf'
+..\Q8.c:17:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\Q8.c:1:1:
++#include <stdio.h>
+ /*
+..\Q8.c:17:13:
+   if(cc==1) printf("%d\n",i);
+             ^~~~~~
+gcc -o Q8.exe Q8.o 
+Info: Nothing to build for Q8
+20:48:03 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.c" 
+..\Q8.c: In function 'displayPrime':
+..\Q8.c:17:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   if(cc==1) printf("%d\n",i);
+             ^~~~~~
+..\Q8.c:17:13: warning: incompatible implicit declaration of built-in function 'printf'
+..\Q8.c:17:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\Q8.c:1:1:
++#include <stdio.h>
+ /*
+..\Q8.c:17:13:
+   if(cc==1) printf("%d\n",i);
+             ^~~~~~
+gcc -o Q8.exe Q8.o 
+20:49:57 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.c" 
+..\Q8.c: In function 'displayPrime':
+..\Q8.c:17:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   if(cc==1) printf("%d\n",i);
+             ^~~~~~
+..\Q8.c:17:13: warning: incompatible implicit declaration of built-in function 'printf'
+..\Q8.c:17:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\Q8.c:1:1:
++#include <stdio.h>
+ /*
+..\Q8.c:17:13:
+   if(cc==1) printf("%d\n",i);
+             ^~~~~~
+..\Q8.c: In function 'main':
+..\Q8.c:29:8: warning: too many arguments for format [-Wformat-extra-args]
+ printf("hh=",checkPrime(4));
+        ^~~~~
+..\Q8.c:29:8: warning: too many arguments for format [-Wformat-extra-args]
+gcc -o Q8.exe Q8.o 
+20:50:16 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.c" 
+..\Q8.c: In function 'displayPrime':
+..\Q8.c:17:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   if(cc==1) printf("%d\n",i);
+             ^~~~~~
+..\Q8.c:17:13: warning: incompatible implicit declaration of built-in function 'printf'
+..\Q8.c:17:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\Q8.c:1:1:
++#include <stdio.h>
+ /*
+..\Q8.c:17:13:
+   if(cc==1) printf("%d\n",i);
+             ^~~~~~
+gcc -o Q8.exe Q8.o 
+20:50:30 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.c" 
+..\Q8.c: In function 'displayPrime':
+..\Q8.c:17:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   if(cc==1) printf("%d\n",i);
+             ^~~~~~
+..\Q8.c:17:13: warning: incompatible implicit declaration of built-in function 'printf'
+..\Q8.c:17:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\Q8.c:1:1:
++#include <stdio.h>
+ /*
+..\Q8.c:17:13:
+   if(cc==1) printf("%d\n",i);
+             ^~~~~~
+gcc -o Q8.exe Q8.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Q8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status

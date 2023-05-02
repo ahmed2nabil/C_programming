@@ -1,0 +1,14 @@
+00:29:59 **** Incremental Build of configuration Debug for project fghfgh ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fghfgh.o" "..\\src\\fghfgh.c" 
+..\src\fghfgh.c: In function 'main':
+..\src\fghfgh.c:16:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%d\n",strlen(str));
+                ^
+..\src\fghfgh.c:16:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\fghfgh.c:16:16: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\fghfgh.c:16:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("%d\n",strlen(str));
+         ^
+gcc -o fghfgh.exe "src\\fghfgh.o" 
+Info: Nothing to build for fghfgh
